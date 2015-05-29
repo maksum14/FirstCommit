@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+<class name="honeyy.Honey" table="Honey">
+    <id name="id" type="int" column="id" >
+        <generator class="increment"/> 
+       </id>
+      	
+		<property name="name" type="string" column="name">
+		</property>
+  	    <property name="taste" type="string" column="taste">
+    </property>
+     </class>
+</hibernate-mapping>
